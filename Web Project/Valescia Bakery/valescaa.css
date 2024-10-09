@@ -1,0 +1,362 @@
+body {
+    font-family: "Heebo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 12px;
+    font-style: normal;
+}
+
+.orders {
+    background-color: #ffe2df;
+    height: 600px;
+}
+
+.bg-1 {
+    background-image: url("/Orders/1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 570px;
+}
+
+.bgt-1 {
+    vertical-align: middle;
+    height: 85px;
+    width: 250px;
+    background-color: #5f1919;
+    color: #ffecea;
+    border: #ffe2df 9px solid;
+}
+
+.bg-2 {
+    background-image: url("/Orders/2.JPG");
+    background-size: cover;
+    background-position: center;
+    width: 570px;
+}
+
+
+
+.maps {
+    width: 500px;
+    background-color: #5f1919;
+    color: #ffe2df;
+}
+
+
+.custom-navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #5f1919 !important;
+    max-height: 600px;
+}
+
+.custom-navbar .nav-link {
+    color: #ffe2df !important;
+}
+
+
+.custom-navbar .dropdown-menu {
+    background-color: #5f1919;
+}
+
+.custom-navbar .dropdown-item {
+    color: #ffe2df !important;
+    /* Teks berwarna #ffe2df */
+    background-color: #5f1919;
+    /* Background berwarna #5f1919 */
+    border: none;
+    /* Menghilangkan border default */
+}
+
+/* Hover effect: reverse colors */
+.custom-navbar .dropdown-item:hover {
+    background-color: #ffe2df;
+    /* Background berubah menjadi #ffe2df */
+    color: #5f1919 !important;
+    /* Teks berubah menjadi #5f1919 */
+}
+
+.hero {
+    background: #e6e0cf;
+    color: #333;
+}
+
+/* Carousel Styles */
+.carousel-item img {
+    max-width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.bg-secondary {
+    background-color: #5f1919 !important;
+}
+
+.text-light {
+    color: #f8f9fa !important;
+}
+
+.about {
+    background-color: #f8f9fa;
+    padding: 40px;
+}
+
+.custom-footer {
+    background-color: #5f1919 !important;
+    color: #ffe2df !important;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+a {
+    color: #ffe2df;
+    text-decoration: none;
+}
+
+header {
+    font-family: "Frank Ruhl Libre", serif;
+    font-optical-sizing: auto;
+    background-color: #343a40;
+    color: white;
+    position: fixed;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.navbar-nav li {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    font-size: 18px;
+    display: none;
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    top: 100% !important;
+}
+
+.dropdown-menu li {
+    display: block;
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+.navbar-brand img {
+    width: 10px;
+    height: 10px;
+}
+
+.utama {
+    color: #5f1919;
+    background-color: #ffecea;
+}
+
+.promo {
+    background-color: #5f1919;
+    color: #ffe2df;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 100%;
+    max-height: 380px;
+}
+
+.promo img {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.promo h1 {
+    font-size: clamp(16px, 1.8vw, 36px);
+    text-align: center;
+}
+
+.promo a {
+
+    text-decoration: none;
+    color: inherit;
+}
+
+.promoimg {
+    height: 1000px;
+    border: solid 10px white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-img {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.salam {
+    color: #5f1919;
+    background-color: #ffecea;
+}
+
+.salam h1 {
+    font-size: clamp(8px, 2.5vw, 38px);
+}
+
+.salam h5 {
+    font-size: clamp(4px, 1.4vw, 20px);
+}
+
+.salam hr {
+    opacity: 1;
+    background-color: #5f1919;
+    height: 0.3vw;
+}
+
+.salam img {
+    max-width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: clamp(26px, 4vw, 42px);
+}
+
+#logo {
+    width: 80px;
+
+}
+footer h1 {
+    font-size: clamp(8px, 2.5vw, 28px);
+}
+footer h5{
+    font-size: clamp(8px, 2vw, 20px);
+}
+#halal {
+    width: 70px;
+
+}
+#logo-fb{
+    max-width: 100%;
+    max-height: 41px;
+    object-fit: cover;
+}
+#logo-ig{
+    max-width: 100%;
+    max-height: 35px;
+    object-fit: cover;
+}
+#logo-tiktok{
+    max-width: 40px;
+}
+#logo-wa{
+    width: 40px;
+}
+
+
+@media (min-width: 991px) {
+    .text-salam {
+        margin-left: 100px;
+        margin-right: 50px;
+    }
+    .navbar-collapse{
+        justify-content: center;
+    }
+    #logo-collapse {
+        width: 0px;
+    }
+}
+
+@media (max-width: 991px) {
+    #logo {
+        width: 75px;
+    }
+    .text-salam {
+        margin-right: 10px;
+    }
+
+    .salam img {
+        max-width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+    }
+
+    #halal {
+        width: 0px;
+
+    }
+    #logo-collapse {
+        width: 80px;
+    }
+    #logo {
+        width: 0px;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .nav-link {
+        font-size: clamp(10px, 2.5vw, 20px);
+    }
+    .dropdown-menu {
+        font-size: clamp(8px, 2.5vw, 16px);
+        background-color: #343a40;
+        right: 0% !important;
+        transform: translateX(0%) !important;
+        top: 0% !important;
+    }
+    .dropdown-menu li {
+        display: block;
+        float: left;
+        position: relative;
+    }
+}
+
+@media (max-width: 600px) {
+    .salam h5 {
+        font-size: 8px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+
+    .carousel-item img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    #logo-collapse {
+        width: 55px;
+    }
+    #halal {
+        width: 0px;
+    }
+    .salam img{
+        max-width: 100%;
+        max-height: 180px;
+        object-fit: cover;
+    }
+}
